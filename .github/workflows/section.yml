@@ -2,9 +2,8 @@ name: Section
 
 on:
   schedule:
-    - cron: "10 7,22 */3 * *"
+    - cron: "*/30 * * * *"
   workflow_dispatch:
-
 
 jobs:
   build:
